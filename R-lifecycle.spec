@@ -4,10 +4,10 @@
 #
 Name     : R-lifecycle
 Version  : 0.1.0
-Release  : 1
+Release  : 2
 URL      : https://cran.r-project.org/src/contrib/lifecycle_0.1.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/lifecycle_0.1.0.tar.gz
-Summary  : Manage the Life Cycle of your Package Functions
+Summary  : Manage the lifecycle of your exported functions with shared conventions, documentation badges, and non-invasive deprecation warnings.
 Group    : Development/Tools
 License  : GPL-3.0
 Requires: R-glue
@@ -15,16 +15,16 @@ Requires: R-rlang
 BuildRequires : R-glue
 BuildRequires : R-rlang
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
-shared conventions, documentation badges, and non-invasive
-    deprecation warnings. The 'lifecycle' package defines four
-    development stages (experimental, maturing, stable, and
-    questioning) and three deprecation stages (soft-deprecated,
-    deprecated, and defunct). It makes it easy to insert badges
-    corresponding to these stages in your documentation. Usage of
-    deprecated functions are signalled with increasing levels of
-    non-invasive verbosity.
+# lifecycle
+<!-- badges: start -->
+[![Travis build status](https://travis-ci.org/r-lib/lifecycle.svg?branch=master)](https://travis-ci.org/r-lib/lifecycle)
+[![Codecov test coverage](https://codecov.io/gh/r-lib/lifecycle/branch/master/graph/badge.svg)](https://codecov.io/gh/r-lib/lifecycle?branch=master)
+[![CRAN status](https://www.r-pkg.org/badges/version/lifecycle)](https://CRAN.R-project.org/package=lifecycle)
+[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+<!-- badges: end -->
 
 %prep
 %setup -q -c -n lifecycle
@@ -34,10 +34,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1569266710
+export SOURCE_DATE_EPOCH=1571855204
 
 %install
-export SOURCE_DATE_EPOCH=1569266710
+export SOURCE_DATE_EPOCH=1571855204
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
