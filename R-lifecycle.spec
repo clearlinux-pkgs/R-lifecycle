@@ -4,7 +4,7 @@
 #
 Name     : R-lifecycle
 Version  : 0.2.0
-Release  : 5
+Release  : 6
 URL      : https://cran.r-project.org/src/contrib/lifecycle_0.2.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/lifecycle_0.2.0.tar.gz
 Summary  : Manage the lifecycle of your exported functions with shared conventions, documentation badges, and non-invasive deprecation warnings.
