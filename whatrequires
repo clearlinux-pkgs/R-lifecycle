@@ -1,3 +1,6 @@
 # This file contains recursive sources that require this package
+R-dbplyr
+R-janitor
 R-scales
+R-tibble
 R-tidyr
