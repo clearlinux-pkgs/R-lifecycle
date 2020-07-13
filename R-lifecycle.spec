@@ -4,7 +4,7 @@
 #
 Name     : R-lifecycle
 Version  : 0.2.0
-Release  : 7
+Release  : 8
 URL      : https://cran.r-project.org/src/contrib/lifecycle_0.2.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/lifecycle_0.2.0.tar.gz
 Summary  : Manage the Life Cycle of your Package Functions
