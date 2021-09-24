@@ -1,17 +1,24 @@
 # This file contains recursive sources that require this package
 R-GGally
 R-dbplyr
+R-distributional
 R-dplyr
+R-dtplyr
 R-furrr
+R-googledrive
 R-hms
 R-janitor
 R-labelled
 R-pillar
 R-readr
 R-recipes
+R-rsample
+R-rvest
 R-scales
 R-shiny
 R-testthat
 R-tibble
 R-tidyr
 R-usethis
+R-vdiffr
+R-vroom
