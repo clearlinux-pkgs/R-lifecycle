@@ -1,6 +1,7 @@
 # This file contains recursive sources that require this package
 R-GGally
 R-dbplyr
+R-devtools
 R-distributional
 R-dplyr
 R-dtplyr
@@ -21,4 +22,5 @@ R-tibble
 R-tidyr
 R-usethis
 R-vdiffr
+R-vembedr
 R-vroom
